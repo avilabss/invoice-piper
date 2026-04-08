@@ -7,6 +7,8 @@
 *.dll
 *.so
 *.dylib
+invp
+.DS_Store
 
 # Test binary, built with `go test -c`
 *.test
@@ -27,6 +29,15 @@ go.work.sum
 # env file
 .env
 
+# Config file (contains credentials)
+config.json
+
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Agentic Stuff
+/task-briefs
+
+# Exports
+/invoices
